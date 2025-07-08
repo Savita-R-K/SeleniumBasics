@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class WindowHandles {
     @Test
-    public void windowHandelling(){
+    public void windowHandling(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/loginpagePractise/#");
         driver.findElement(By.cssSelector(".blinkingText")).click();
